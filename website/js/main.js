@@ -9,6 +9,11 @@
     if (value.startsWith("zh")) return "zh-Hans";
     if (value.startsWith("ja")) return "ja";
     if (value.startsWith("ko")) return "ko";
+    if (value.startsWith("th")) return "th";
+    if (value.startsWith("fr")) return "fr";
+    if (value.startsWith("de")) return "de";
+    if (value.startsWith("it")) return "it";
+    if (value.startsWith("es")) return "es";
     if (value.startsWith("en")) return "en";
     return null;
   }
@@ -30,7 +35,7 @@
   }
 
   function screenshotBase(lang) {
-    const folder = LOCALE_SCREENSHOT_FOLDER[lang] || "zh-Hans";
+    const folder = LOCALE_SCREENSHOT_FOLDER[lang] || "简体中文";
     return `assets/screenshots/${folder}/`;
   }
 

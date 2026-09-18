@@ -1,17 +1,27 @@
 window.LEGAL_CONTENT = {
   "lastUpdated": {
-    "zh-Hans": "2026年8月28日",
-    "zh-Hant": "2026年8月28日",
-    "en": "August 28, 2026",
-    "ja": "2026年8月28日",
-    "ko": "2026년 8월 28일"
+    "zh-Hans": "2026年9月17日",
+    "zh-Hant": "2026年9月17日",
+    "en": "September 17, 2026",
+    "ja": "2026年9月17日",
+    "ko": "2026년 9월 17일",
+    "fr": "17 septembre 2026",
+    "de": "17. September 2026",
+    "th": "17 กันยายน 2026",
+    "it": "17 settembre 2026",
+    "es": "17 de septiembre de 2026"
   },
   "updatedLabel": {
     "zh-Hans": "最后更新：{date}",
     "zh-Hant": "最後更新：{date}",
     "en": "Last updated: {date}",
     "ja": "最終更新：{date}",
-    "ko": "최종 업데이트: {date}"
+    "ko": "최종 업데이트: {date}",
+    "fr": "Dernière mise à jour : {date}",
+    "de": "Zuletzt aktualisiert: {date}",
+    "th": "อัปเดตล่าสุด: {date}",
+    "it": "Ultimo aggiornamento: {date}",
+    "es": "Última actualización: {date}"
   },
   "titles": {
     "privacy": {
@@ -19,14 +29,24 @@ window.LEGAL_CONTENT = {
       "zh-Hant": "隱私政策",
       "en": "Privacy Policy",
       "ja": "プライバシーポリシー",
-      "ko": "개인정보 처리방침"
+      "ko": "개인정보 처리방침",
+      "fr": "Politique de confidentialité",
+      "de": "Datenschutzrichtlinie",
+      "th": "นโยบายความเป็นส่วนตัว",
+      "it": "Informativa sulla privacy",
+      "es": "Política de privacidad"
     },
     "terms": {
       "zh-Hans": "用户协议",
       "zh-Hant": "使用者協議",
       "en": "Terms of Service",
       "ja": "利用規約",
-      "ko": "이용약관"
+      "ko": "이용약관",
+      "fr": "Conditions d’utilisation",
+      "de": "Nutzungsbedingungen",
+      "th": "ข้อกำหนดการใช้งาน",
+      "it": "Termini di servizio",
+      "es": "Condiciones de uso"
     }
   },
   "documents": {
@@ -280,6 +300,256 @@ window.LEGAL_CONTENT = {
           "title": "문의",
           "body": "본 개인정보 처리방침에 대한 질문은 다음 주소로 보내 주세요.\n\nduanwei@nonoor.com"
         }
+      ],
+      "fr": [
+              {
+                      "title": "Introduction",
+                      "body": "Bienvenue dans My Closet. Nous accordons une grande importance à votre vie privée. La présente politique de confidentialité explique comment nous traitons les informations liées à votre utilisation de l’application.\n\nL’application est fournie par le développeur (contact : duanwei@nonoor.com). En utilisant l’application, vous reconnaissez avoir lu et compris la présente politique."
+              },
+              {
+                      "title": "Informations que nous collectons",
+                      "body": "L’application ne crée pas de comptes utilisateur et n’envoie pas vos données personnelles vers des serveurs du développeur. Les informations sont principalement stockées sur votre appareil et, si vous activez iCloud, synchronisées par Apple.\n\n1. Contenu que vous fournissez\n• Articles de dressing : nom, marque, catégorie, prix, saison, date d’achat, notes, photos\n• Articles de liste de souhaits : nom, marque, prix, tags, raisons d’hésitation, photos et champs similaires\n• Looks : titre, tags, photos, jours habituels et champs similaires\n• Calendrier des tenues : photos de tenues et informations horaires enregistrées par date\n\n2. Préférences de l’appareil et locales\n• Thème d’interface et choix de l’icône de l’app\n• Statut Pro mis en cache (pour l’affichage hors ligne des avantages)\n• Compteurs « cœur » de la liste de souhaits et journaux d’interaction quotidiens\n• Indicateurs de migration de version (par exemple l’état de nettoyage des données de démonstration)\n\n3. Informations que nous ne collectons pas\n• Nous n’intégrons pas de SDK publicitaires ou d’analyse de tiers\n• Nous ne collectons pas la localisation précise, les contacts, le microphone, les données de santé ni d’autres données sensibles similaires\n• Nous ne transmettons pas le contenu utilisateur ci-dessus vers des serveurs appartenant au développeur"
+              },
+              {
+                      "title": "Photos, appareil photo et photothèque",
+                      "body": "Avec votre autorisation, l’application peut accéder à :\n\n• Photothèque : pour choisir des photos de vêtements, de liste de souhaits ou de looks\n• Appareil photo : pour photographier la tenue du jour ou des articles\n\nVous pouvez retirer ces autorisations à tout moment dans Réglages iOS. Après révocation, les fonctions concernées peuvent cesser de fonctionner, mais les données déjà enregistrées dans l’application ne sont pas supprimées pour cette raison."
+              },
+              {
+                      "title": "Stockage et synchronisation iCloud",
+                      "body": "1. Stockage local\nSi vous n’êtes pas connecté à iCloud ou n’avez pas activé la synchronisation, les données sont stockées dans le répertoire Application Support de l’appareil, y compris les fichiers JSON et les fichiers photo.\n\n2. Synchronisation iCloud\nSi vous êtes connecté à iCloud et avez autorisé l’accès, l’application peut synchroniser les articles de dressing, les entrées de liste de souhaits, les looks, les enregistrements du calendrier et les photos entre vos appareils Apple via iCloud Drive (CloudDocuments). L’identifiant du conteneur est iCloud.com.dianziyichu.app.\n\n3. Remarques\n• La synchronisation iCloud est fournie par Apple et soumise aux conditions iCloud et à la politique de confidentialité d’Apple\n• Le statut d’abonnement Pro, le thème et les préférences d’icône ne sont pas synchronisés via iCloud\n• La synchronisation est disponible pour tous les utilisateurs, et non uniquement pour les membres Pro"
+              },
+              {
+                      "title": "Utilisation des informations",
+                      "body": "Nous n’utilisons les informations ci-dessus que dans la mesure nécessaire pour fournir et améliorer l’application, par exemple pour :\n\n• Afficher et gérer votre dressing, votre liste de souhaits, vos looks et votre calendrier\n• Synchroniser vos données sur l’appareil ou via iCloud\n• Appliquer les limites de capacité de la version gratuite et les avantages Pro\n• Répondre aux retours que vous envoyez via « Contacter le développeur » (vous rédigez vous-même l’e-mail)\n\nNous ne vendons pas vos informations personnelles et ne les utilisons pas à des fins de publicité ciblée."
+              },
+              {
+                      "title": "Services tiers",
+                      "body": "L’application utilise les capacités système Apple suivantes :\n\n• App Store / StoreKit : abonnements Pro et déblocage à vie, restauration des achats et vérification des transactions\n• iCloud : synchronisation facultative des données et des photos\n• Mail : contact du développeur via la feuille de composition système\n• Photos et Appareil photo : lecture ou capture d’images\n\nVeuillez consulter les politiques officielles d’Apple pour ces services. Hormis les services système Apple, l’application n’inclut pas d’autres SDK tiers."
+              },
+              {
+                      "title": "Accès réseau",
+                      "body": "Si vous saisissez l’URL d’une image distante, l’application peut charger cette image en HTTPS pour l’afficher. Les connexions réseau non sécurisées arbitraires ne sont pas autorisées par défaut.\n\nHormis ce cas, la vérification des transactions App Store et la synchronisation iCloud, l’application n’exige pas de connexion réseau permanente pour utiliser les fonctions principales."
+              },
+              {
+                      "title": "Conservation et suppression",
+                      "body": "• Vos données restent sur l’appareil ou dans iCloud jusqu’à ce que vous supprimiez les données de l’application, désinstalliez l’application ou supprimiez les données concernées dans iCloud.\n• La désinstallation de l’application peut supprimer les données locales. Si la synchronisation iCloud est activée, des copies peuvent subsister sur d’autres appareils connectés au même compte iCloud.\n• Vous pouvez supprimer le contenu correspondant en supprimant des articles, des looks, des entrées de liste de souhaits ou des enregistrements du calendrier."
+              },
+              {
+                      "title": "Confidentialité des enfants",
+                      "body": "L’application ne collecte pas sciemment d’informations personnelles auprès d’enfants de moins de 13 ans. Si vous êtes parent ou tuteur et estimez que nous avons traité de telles informations, veuillez nous contacter à duanwei@nonoor.com."
+              },
+              {
+                      "title": "Vos droits",
+                      "body": "Vous pouvez :\n\n• Consulter, modifier et supprimer le contenu que vous avez créé dans l’application\n• Gérer les autorisations Photothèque et Appareil photo dans Réglages\n• Gérer iCloud et les abonnements dans les réglages de l’identifiant Apple\n• Nous écrire pour toute question ou tout retour relatif à la confidentialité"
+              },
+              {
+                      "title": "Mises à jour de la politique",
+                      "body": "Nous pouvons mettre à jour la présente politique de confidentialité de temps à autre. La version mise à jour sera affichée dans l’application et indiquera une date de « Dernière mise à jour ». Si une modification affecte substantiellement vos droits, nous vous en informerons de manière raisonnable."
+              },
+              {
+                      "title": "Nous contacter",
+                      "body": "Pour toute question concernant la présente politique de confidentialité, veuillez écrire à :\n\nduanwei@nonoor.com"
+              }
+      ],
+      "de": [
+              {
+                      "title": "Einleitung",
+                      "body": "Willkommen bei My Closet. Wir nehmen Ihre Privatsphäre ernst. Diese Datenschutzerklärung erläutert, wie wir Informationen im Zusammenhang mit Ihrer Nutzung der App verarbeiten.\n\nDie App wird vom Entwickler bereitgestellt (Kontakt: duanwei@nonoor.com). Durch die Nutzung der App bestätigen Sie, dass Sie diese Erklärung gelesen und verstanden haben."
+              },
+              {
+                      "title": "Welche Informationen wir erheben",
+                      "body": "Die App erstellt keine Benutzerkonten und lädt Ihre personenbezogenen Daten nicht auf Server des Entwicklers hoch. Informationen werden hauptsächlich auf Ihrem Gerät gespeichert und, wenn Sie iCloud aktivieren, von Apple synchronisiert.\n\n1. Von Ihnen bereitgestellte Inhalte\n• Kleidungsstücke: Name, Marke, Kategorie, Preis, Saison, Kaufdatum, Notizen, Fotos\n• Wunschliste: Name, Marke, Preis, Tags, Zögergründe, Fotos und vergleichbare Felder\n• Outfits: Titel, Tags, Fotos, übliche Wochentage und vergleichbare Felder\n• Outfit-Kalender: Outfit-Fotos und Zeitangaben, die nach Datum erfasst werden\n\n2. Geräte- und lokale Einstellungen\n• Oberflächendesign und App-Symbol\n• Zwischengespeicherter Pro-Mitgliedsstatus (zur Offline-Anzeige der Vorteile)\n• „Herz“-Zähler der Wunschliste und tägliche Interaktionsprotokolle\n• Migrationskennzeichen der App-Version (z. B. Status der Demo-Datenbereinigung)\n\n3. Informationen, die wir nicht erheben\n• Wir integrieren keine Werbe- oder Analyse-SDKs Dritter\n• Wir erheben keine genauen Standortdaten, Kontakte, Mikrofon-, Gesundheits- oder vergleichbaren sensiblen Berechtigungsdaten\n• Wir übermitteln die oben genannten Nutzerinhalte nicht an eigene Server des Entwicklers"
+              },
+              {
+                      "title": "Fotos, Kamera und Mediathek",
+                      "body": "Mit Ihrer Erlaubnis kann die App zugreifen auf:\n\n• Mediathek: zum Auswählen von Kleidungs-, Wunschlisten- oder Outfit-Fotos\n• Kamera: zum Aufnehmen des heutigen Outfits oder von Artikelfotos\n\nSie können diese Berechtigungen jederzeit in den iOS-Einstellungen widerrufen. Nach dem Widerruf funktionieren zugehörige Funktionen möglicherweise nicht mehr; bereits in der App gespeicherte Daten werden dadurch nicht gelöscht."
+              },
+              {
+                      "title": "Speicherung und iCloud-Synchronisierung",
+                      "body": "1. Lokale Speicherung\nWenn Sie nicht bei iCloud angemeldet sind oder die Synchronisierung nicht aktiviert haben, werden Daten im Application-Support-Verzeichnis des Geräts gespeichert, einschließlich JSON-Dateien und Fotodateien.\n\n2. iCloud-Synchronisierung\nWenn Sie bei iCloud angemeldet sind und den Zugriff erlaubt haben, kann die App Kleidungsstücke, Wunschlisteneinträge, Outfits, Kalendereinträge und Fotos über iCloud Drive (CloudDocuments) zwischen Ihren Apple-Geräten synchronisieren. Die Container-Kennung lautet iCloud.com.dianziyichu.app.\n\n3. Hinweise\n• Die iCloud-Synchronisierung wird von Apple bereitgestellt und unterliegt den iCloud-Bedingungen und der Datenschutzerklärung von Apple\n• Pro-Mitgliedsstatus, Design und Symbol-Einstellungen werden nicht über iCloud synchronisiert\n• Die Synchronisierung steht allen Nutzern zur Verfügung, nicht nur Pro-Mitgliedern"
+              },
+              {
+                      "title": "Verwendung der Informationen",
+                      "body": "Wir verwenden die oben genannten Informationen nur, soweit dies zur Bereitstellung und Verbesserung der App erforderlich ist, beispielsweise um:\n\n• Ihren Kleiderschrank, Ihre Wunschliste, Outfits und den Kalender anzuzeigen und zu verwalten\n• Ihre Daten geräteintern oder über iCloud zu synchronisieren\n• Kapazitätsgrenzen der kostenlosen Version und Pro-Vorteile anzuwenden\n• auf Feedback zu antworten, das Sie über „Entwickler kontaktieren“ senden (die E-Mail verfassen Sie selbst)\n\nWir verkaufen Ihre personenbezogenen Daten nicht und nutzen sie nicht für gezielte Werbung."
+              },
+              {
+                      "title": "Dienste Dritter",
+                      "body": "Die App nutzt die folgenden Apple-Systemfunktionen:\n\n• App Store / StoreKit: Pro-Abonnements und lebenslange Freischaltung, Wiederherstellen von Käufen und Transaktionsprüfung\n• iCloud: optionale Daten- und Fotosynchronisierung\n• Mail: Kontaktaufnahme mit dem Entwickler über das System-Mailfenster\n• Fotos und Kamera: Lesen oder Aufnehmen von Bildern\n\nBitte beachten Sie die offiziellen Richtlinien von Apple zu diesen Diensten. Abgesehen von Apple-Systemdiensten enthält die App keine weiteren SDKs Dritter."
+              },
+              {
+                      "title": "Netzwerkzugriff",
+                      "body": "Wenn Sie eine Remote-Bild-URL eingeben, kann die App dieses Bild zur Anzeige über HTTPS laden. Beliebige unsichere Netzwerkverbindungen sind standardmäßig nicht zulässig.\n\nAbgesehen von diesem Fall, der App-Store-Transaktionsprüfung und der iCloud-Synchronisierung benötigt die App keine dauerhafte Netzwerkverbindung für die Kernfunktionen."
+              },
+              {
+                      "title": "Speicherung und Löschung",
+                      "body": "• Ihre Daten verbleiben auf dem Gerät oder in iCloud, bis Sie App-Daten löschen, die App deinstallieren oder die betreffenden Daten in iCloud löschen.\n• Das Deinstallieren der App kann lokale Daten löschen. Ist die iCloud-Synchronisierung aktiviert, können Kopien auf anderen Geräten verbleiben, die mit demselben iCloud-Account angemeldet sind.\n• Sie können entsprechende Inhalte löschen, indem Sie Artikel, Outfits, Wunschlisteneinträge oder Kalendereinträge entfernen."
+              },
+              {
+                      "title": "Datenschutz von Kindern",
+                      "body": "Die App erhebt wissentlich keine personenbezogenen Daten von Kindern unter 13 Jahren. Wenn Sie Elternteil oder Erziehungsberechtigte/r sind und glauben, dass wir solche Informationen verarbeitet haben, kontaktieren Sie uns bitte unter duanwei@nonoor.com."
+              },
+              {
+                      "title": "Ihre Rechte",
+                      "body": "Sie können:\n\n• Von Ihnen erstellte Inhalte in der App anzeigen, bearbeiten und löschen\n• Mediathek- und Kameraberechtigungen in den Systemeinstellungen verwalten\n• iCloud und Abonnements in den Apple-ID-Einstellungen verwalten\n• uns per E-Mail Datenschutzfragen oder Feedback senden"
+              },
+              {
+                      "title": "Aktualisierungen der Richtlinie",
+                      "body": "Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Die aktualisierte Fassung wird in der App angezeigt und enthält ein Datum „Zuletzt aktualisiert“. Betrifft eine Änderung Ihre Rechte wesentlich, werden wir Sie in angemessener Weise benachrichtigen."
+              },
+              {
+                      "title": "Kontakt",
+                      "body": "Bei Fragen zu dieser Datenschutzerklärung senden Sie bitte eine E-Mail an:\n\nduanwei@nonoor.com"
+              }
+      ],
+      "th": [
+              {
+                      "title": "บทนำ",
+                      "body": "ยินดีต้อนรับสู่ My Closet เราให้ความสำคัญกับความเป็นส่วนตัวของคุณ นโยบายความเป็นส่วนตัวนี้อธิบายวิธีที่เราจัดการข้อมูลที่เกี่ยวข้องกับการใช้แอปของคุณ\n\nแอปนี้จัดทำโดยผู้พัฒนา (ติดต่อ: duanwei@nonoor.com) การใช้แอปถือว่าคุณได้อ่านและเข้าใจนโยบายนี้แล้ว"
+              },
+              {
+                      "title": "ข้อมูลที่เราเก็บรวบรวม",
+                      "body": "แอปนี้ไม่สร้างบัญชีผู้ใช้ และไม่อัปโหลดข้อมูลส่วนบุคคลของคุณไปยังเซิร์ฟเวอร์ของผู้พัฒนา ข้อมูลจะถูกจัดเก็บเป็นหลักบนอุปกรณ์ของคุณ และหากคุณเปิดใช้ iCloud จะได้รับการซิงค์โดย Apple\n\n1. เนื้อหาที่คุณให้ไว้\n• รายการในตู้เสื้อผ้า: ชื่อ แบรนด์ หมวดหมู่ ราคา ฤดูกาล วันที่ซื้อ บันทึกย่อ รูปภาพ\n• รายการในวิชลิสต์: ชื่อ แบรนด์ ราคา แท็ก เหตุผลที่ยังลังเล รูปภาพ และช่องข้อมูลในลักษณะเดียวกัน\n• ชุดเสื้อผ้า: ชื่อเรื่อง แท็ก รูปภาพ วันในสัปดาห์ที่มักสวมใส่ และช่องข้อมูลในลักษณะเดียวกัน\n• ปฏิทินการแต่งตัว: รูปชุดและข้อมูลเวลาที่บันทึกตามวันที่\n\n2. ค่ากำหนดของอุปกรณ์และในเครื่อง\n• ธีมอินเทอร์เฟซและการเลือกไอคอนแอป\n• สถานะสมาชิก Pro ที่แคชไว้ (เพื่อแสดงสิทธิประโยชน์เมื่อออฟไลน์)\n• จำนวน «หัวใจ» ของวิชลิสต์และบันทึกการโต้ตอบรายวัน\n• แฟล็กการย้ายเวอร์ชันแอป (เช่น สถานะการล้างข้อมูลตัวอย่าง)\n\n3. ข้อมูลที่เราไม่เก็บรวบรวม\n• เราไม่ผนวก SDK โฆษณาหรือวิเคราะห์ของบุคคลที่สาม\n• เราไม่เก็บตำแหน่งที่แม่นยำ รายชื่อผู้ติดต่อ ไมโครโฟน ข้อมูลสุขภาพ หรือข้อมูลสิทธิ์ที่ละเอียดอ่อนในลักษณะเดียวกัน\n• เราไม่ส่งเนื้อหาผู้ใช้ข้างต้นไปยังเซิร์ฟเวอร์ที่เป็นของนักพัฒนา"
+              },
+              {
+                      "title": "รูปภาพ กล้อง และการเข้าถึงคลังภาพ",
+                      "body": "เมื่อได้รับอนุญาตจากคุณ แอปอาจเข้าถึง:\n\n• คลังรูปภาพ: เพื่อเลือกรูปเสื้อผ้า วิชลิสต์ หรือชุด\n• กล้อง: เพื่อถ่ายชุดวันนี้หรือรูปสินค้า\n\nคุณสามารถเพิกถอนสิทธิ์เหล่านี้ได้ทุกเมื่อในการตั้งค่า iOS หลังเพิกถอน ฟีเจอร์ที่เกี่ยวข้องอาจใช้งานไม่ได้ แต่ข้อมูลที่บันทึกไว้ในแอปแล้วจะไม่ถูกลบด้วยเหตุนั้น"
+              },
+              {
+                      "title": "การจัดเก็บและการซิงค์ iCloud",
+                      "body": "1. การจัดเก็บในเครื่อง\nหากคุณไม่ได้ลงชื่อเข้าใช้ iCloud หรือยังไม่ได้เปิดการซิงค์ ข้อมูลจะถูกเก็บในไดเรกทอรี Application Support ของอุปกรณ์ รวมถึงไฟล์ข้อมูล JSON และไฟล์รูปภาพ\n\n2. การซิงค์ iCloud\nหากคุณลงชื่อเข้าใช้ iCloud และอนุญาตการเข้าถึงแล้ว แอปสามารถซิงค์รายการตู้เสื้อผ้า รายการวิชลิสต์ ชุด บันทึกปฏิทิน และรูปภาพระหว่างอุปกรณ์ Apple ของคุณผ่าน iCloud Drive (CloudDocuments) ตัวระบุคอนเทนเนอร์คือ iCloud.com.dianziyichu.app\n\n3. หมายเหตุ\n• การซิงค์ iCloud ให้บริการโดย Apple และอยู่ภายใต้ข้อกำหนด iCloud และนโยบายความเป็นส่วนตัวของ Apple\n• สถานะสมาชิก Pro ธีม และค่ากำหนดไอคอนจะไม่ถูกซิงค์ผ่าน iCloud\n• การซิงค์พร้อมให้ผู้ใช้ทุกคน ไม่จำกัดเฉพาะสมาชิก Pro"
+              },
+              {
+                      "title": "วิธีที่เราใช้ข้อมูล",
+                      "body": "เราใช้ข้อมูลข้างต้นเฉพาะเท่าที่จำเป็นเพื่อให้บริการและปรับปรุงแอป เช่น เพื่อ:\n\n• แสดงและจัดการตู้เสื้อผ้า วิชลิสต์ ชุด และปฏิทินของคุณ\n• ซิงค์ข้อมูลบนอุปกรณ์หรือผ่าน iCloud\n• ใช้ขีดจำกัดความจุของรุ่นฟรีและสิทธิประโยชน์ Pro\n• ตอบกลับความคิดเห็นที่คุณส่งผ่าน «ติดต่อนักพัฒนา» (คุณเป็นผู้เขียนอีเมลเอง)\n\nเราไม่ขายข้อมูลส่วนบุคคลของคุณ และไม่นำไปใช้เพื่อโฆษณาแบบกำหนดเป้าหมาย"
+              },
+              {
+                      "title": "บริการของบุคคลที่สาม",
+                      "body": "แอปใช้ความสามารถของระบบ Apple ดังต่อไปนี้:\n\n• App Store / StoreKit: สมัครสมาชิก Pro และการปลดล็อกตลอดชีพ กู้คืนการซื้อ และตรวจสอบธุรกรรม\n• iCloud: ซิงค์ข้อมูลและรูปภาพโดยสมัครใจ\n• จดหมาย: ติดต่อนักพัฒนาผ่านแผ่นเขียนเมลของระบบ\n• รูปภาพและกล้อง: อ่านหรือถ่ายภาพ\n\nโปรดตรวจสอบนโยบายอย่างเป็นทางการของ Apple สำหรับบริการเหล่านั้น นอกเหนือจากบริการระบบของ Apple แอปไม่มี SDK ของบุคคลที่สามอื่น"
+              },
+              {
+                      "title": "การเข้าถึงเครือข่าย",
+                      "body": "หากคุณป้อน URL ของรูปภาพระยะไกล แอปอาจโหลดรูปนั้นผ่าน HTTPS เพื่อแสดงผล การเชื่อมต่อเครือข่ายที่ไม่ปลอดภัยโดยพลการจะไม่ได้รับอนุญาตตามค่าเริ่มต้น\n\nนอกจากกรณีดังกล่าว การตรวจสอบธุรกรรม App Store และการซิงค์ iCloud แอปไม่ต้องการการเชื่อมต่อเครือข่ายอย่างต่อเนื่องเพื่อใช้ฟีเจอร์หลัก"
+              },
+              {
+                      "title": "การเก็บรักษาและการลบ",
+                      "body": "• ข้อมูลของคุณจะอยู่ในอุปกรณ์หรือใน iCloud จนกว่าคุณจะลบข้อมูลแอป ถอนการติดตั้งแอป หรือลบข้อมูลที่เกี่ยวข้องใน iCloud\n• การถอนการติดตั้งแอปอาจลบข้อมูลในเครื่อง หากเปิดการซิงค์ iCloud สำเนาอาจยังคงอยู่บนอุปกรณ์อื่นที่ลงชื่อเข้าใช้บัญชี iCloud เดียวกัน\n• คุณสามารถลบเนื้อหาที่เกี่ยวข้องได้โดยการลบรายการ ชุด รายการวิชลิสต์ หรือบันทึกปฏิทิน"
+              },
+              {
+                      "title": "ความเป็นส่วนตัวของเด็ก",
+                      "body": "แอปนี้ไม่ได้เก็บรวบรวมข้อมูลส่วนบุคคลจากเด็กอายุต่ำกว่า 13 ปีโดยเจตนา หากคุณเป็นผู้ปกครองและเชื่อว่าเราได้ประมวลผลข้อมูลดังกล่าว โปรดติดต่อเราที่ duanwei@nonoor.com"
+              },
+              {
+                      "title": "สิทธิของคุณ",
+                      "body": "คุณสามารถ:\n\n• ดู แก้ไข และลบเนื้อหาที่คุณสร้างในแอป\n• จัดการสิทธิ์คลังรูปภาพและกล้องในการตั้งค่าระบบ\n• จัดการ iCloud และการสมัครสมาชิกในการตั้งค่า Apple ID\n• ส่งอีเมลสอบถามหรือให้ความเห็นเกี่ยวกับความเป็นส่วนตัว"
+              },
+              {
+                      "title": "การอัปเดตนโยบาย",
+                      "body": "เราอาจอัปเดตนโยบายความเป็นส่วนตัวนี้เป็นครั้งคราว เวอร์ชันที่อัปเดตจะแสดงในแอปและระบุวันที่ «อัปเดตล่าสุด» หากการเปลี่ยนแปลงมีผลอย่างมีนัยสำคัญต่อสิทธิของคุณ เราจะแจ้งให้ทราบด้วยวิธีที่สมเหตุสมผล"
+              },
+              {
+                      "title": "ติดต่อเรา",
+                      "body": "หากมีคำถามเกี่ยวกับนโยบายความเป็นส่วนตัวนี้ โปรดส่งอีเมลถึง:\n\nduanwei@nonoor.com"
+              }
+      ],
+      "it": [
+              {
+                      "title": "Introduzione",
+                      "body": "Benvenuto in My Closet. Tuteliamo la tua privacy. La presente Informativa sulla privacy spiega come gestiamo le informazioni connesse all’uso dell’app.\n\nL’app è fornita dallo sviluppatore (contatto: duanwei@nonoor.com). Utilizzando l’app, dichiari di aver letto e compreso la presente informativa."
+              },
+              {
+                      "title": "Informazioni che raccogliamo",
+                      "body": "L’app non crea account utente e non carica i tuoi dati personali sui server dello sviluppatore. Le informazioni sono conservate principalmente sul dispositivo e, se attivi iCloud, sincronizzate da Apple.\n\n1. Contenuti che fornisci\n• Capi del guardaroba: nome, marca, categoria, prezzo, stagione, data di acquisto, note, foto\n• Elementi della lista dei desideri: nome, marca, prezzo, tag, motivi di indecisione, foto e campi analoghi\n• Outfit: titolo, tag, foto, giorni della settimana abituali e campi analoghi\n• Calendario outfit: foto degli outfit e informazioni orarie registrate per data\n\n2. Preferenze del dispositivo e locali\n• Tema dell’interfaccia e scelta dell’icona dell’app\n• Stato Pro memorizzato nella cache (per mostrare i vantaggi offline)\n• Conteggio dei «cuori» della lista dei desideri e registri di interazione quotidiana\n• Flag di migrazione della versione dell’app (ad esempio lo stato di pulizia dei dati demo)\n\n3. Informazioni che non raccogliamo\n• Non integriamo SDK di pubblicità o analisi di terze parti\n• Non raccogliamo posizione precisa, contatti, microfono, dati sanitari o analoghi dati da autorizzazioni sensibili\n• Non trasmettiamo i contenuti utente di cui sopra a server di proprietà dello sviluppatore"
+              },
+              {
+                      "title": "Foto, fotocamera e libreria",
+                      "body": "Con la tua autorizzazione, l’app può accedere a:\n\n• Libreria foto: per scegliere foto di capi, della lista dei desideri o degli outfit\n• Fotocamera: per scattare la foto dell’outfit di oggi o dei capi\n\nPuoi revocare queste autorizzazioni in qualsiasi momento in Impostazioni iOS. Dopo la revoca, le funzioni correlate potrebbero non funzionare, ma i dati già salvati nell’app non vengono eliminati per tale motivo."
+              },
+              {
+                      "title": "Archiviazione e sincronizzazione iCloud",
+                      "body": "1. Archiviazione locale\nSe non hai effettuato l’accesso a iCloud o non hai attivato la sincronizzazione, i dati sono conservati nella directory Application Support del dispositivo, inclusi file JSON e file fotografici.\n\n2. Sincronizzazione iCloud\nSe hai effettuato l’accesso a iCloud e hai autorizzato l’accesso, l’app può sincronizzare capi, voci della lista dei desideri, outfit, registrazioni del calendario e foto tra i tuoi dispositivi Apple tramite iCloud Drive (CloudDocuments). L’identificatore del contenitore è iCloud.com.dianziyichu.app.\n\n3. Note\n• La sincronizzazione iCloud è fornita da Apple ed è soggetta ai termini iCloud e all’informativa sulla privacy di Apple\n• Lo stato di abbonamento Pro, il tema e le preferenze dell’icona non vengono sincronizzati tramite iCloud\n• La sincronizzazione è disponibile per tutti gli utenti, non solo per i membri Pro"
+              },
+              {
+                      "title": "Come utilizziamo le informazioni",
+                      "body": "Utilizziamo le informazioni di cui sopra solo nella misura necessaria per fornire e migliorare l’app, ad esempio per:\n\n• Visualizzare e gestire guardaroba, lista dei desideri, outfit e calendario\n• Sincronizzare i dati sul dispositivo o tramite iCloud\n• Applicare i limiti di capacità della versione gratuita e i vantaggi Pro\n• Rispondere ai feedback inviati tramite «Contatta lo sviluppatore» (il testo dell’e-mail lo componi tu)\n\nNon vendiamo le tue informazioni personali né le utilizziamo per pubblicità mirata."
+              },
+              {
+                      "title": "Servizi di terze parti",
+                      "body": "L’app utilizza le seguenti funzionalità di sistema Apple:\n\n• App Store / StoreKit: abbonamenti Pro e sblocco a vita, ripristino degli acquisti e verifica delle transazioni\n• iCloud: sincronizzazione facoltativa di dati e foto\n• Mail: contatto con lo sviluppatore tramite il foglio di composizione di sistema\n• Foto e Fotocamera: lettura o acquisizione di immagini\n\nConsulta le informative ufficiali di Apple per tali servizi. Oltre ai servizi di sistema Apple, l’app non include altri SDK di terze parti."
+              },
+              {
+                      "title": "Accesso alla rete",
+                      "body": "Se inserisci l’URL di un’immagine remota, l’app può caricare quell’immagine tramite HTTPS per visualizzarla. Le connessioni di rete non sicure arbitrarie non sono consentite per impostazione predefinita.\n\nOltre a tale caso, alla verifica delle transazioni App Store e alla sincronizzazione iCloud, l’app non richiede una connessione di rete persistente per usare le funzioni principali."
+              },
+              {
+                      "title": "Conservazione ed eliminazione",
+                      "body": "• I tuoi dati restano sul dispositivo o in iCloud finché non elimini i dati dell’app, disinstalli l’app o elimini i dati correlati in iCloud.\n• La disinstallazione dell’app può eliminare i dati locali. Se la sincronizzazione iCloud è attiva, copie possono rimanere su altri dispositivi connessi allo stesso account iCloud.\n• Puoi eliminare i contenuti corrispondenti cancellando capi, outfit, voci della lista dei desideri o registrazioni del calendario."
+              },
+              {
+                      "title": "Privacy dei minori",
+                      "body": "L’app non raccoglie consapevolmente informazioni personali da minori di 13 anni. Se sei un genitore o tutore e ritieni che abbiamo trattato tali informazioni, contattaci all’indirizzo duanwei@nonoor.com."
+              },
+              {
+                      "title": "I tuoi diritti",
+                      "body": "Puoi:\n\n• Visualizzare, modificare ed eliminare i contenuti creati nell’app\n• Gestire le autorizzazioni di Libreria foto e Fotocamera in Impostazioni\n• Gestire iCloud e gli abbonamenti nelle impostazioni dell’ID Apple\n• Scriverci per domande o feedback sulla privacy"
+              },
+              {
+                      "title": "Aggiornamenti dell’informativa",
+                      "body": "Possiamo aggiornare periodicamente la presente Informativa sulla privacy. La versione aggiornata sarà mostrata nell’app e indicherà una data di «Ultimo aggiornamento». Se una modifica incide in modo sostanziale sui tuoi diritti, ti informeremo in modo ragionevole."
+              },
+              {
+                      "title": "Contattaci",
+                      "body": "Per domande sulla presente Informativa sulla privacy, scrivi a:\n\nduanwei@nonoor.com"
+              }
+      ],
+      "es": [
+              {
+                      "title": "Introducción",
+                      "body": "Bienvenido a My Closet. Valoramos su privacidad. La presente Política de privacidad explica cómo tratamos la información relacionada con el uso de la aplicación.\n\nLa aplicación la proporciona el desarrollador (contacto: duanwei@nonoor.com). Al usar la aplicación, usted reconoce que ha leído y comprendido esta política."
+              },
+              {
+                      "title": "Información que recopilamos",
+                      "body": "La aplicación no crea cuentas de usuario ni carga sus datos personales a servidores del desarrollador. La información se almacena principalmente en su dispositivo y, si activa iCloud, Apple la sincroniza.\n\n1. Contenido que usted aporta\n• Prendas del armario: nombre, marca, categoría, precio, temporada, fecha de compra, notas, fotos\n• Artículos de la lista de deseos: nombre, marca, precio, etiquetas, motivos de duda, fotos y campos similares\n• Conjuntos: título, etiquetas, fotos, días habituales de la semana y campos similares\n• Calendario de conjuntos: fotos de conjuntos e información horaria registradas por fecha\n\n2. Preferencias del dispositivo y locales\n• Tema de la interfaz y elección del icono de la app\n• Estado Pro almacenado en caché (para mostrar las ventajas sin conexión)\n• Recuentos de «corazones» de la lista de deseos y registros de interacción diarios\n• Indicadores de migración de versión de la app (por ejemplo, el estado de limpieza de datos de demostración)\n\n3. Información que no recopilamos\n• No integramos SDK de publicidad ni de analítica de terceros\n• No recopilamos ubicación precisa, contactos, micrófono, datos de salud ni datos similares de permisos sensibles\n• No transmitimos el contenido de usuario anterior a servidores propios del desarrollador"
+              },
+              {
+                      "title": "Fotos, cámara y fototeca",
+                      "body": "Con su permiso, la aplicación puede acceder a:\n\n• Fototeca: para elegir fotos de prendas, de la lista de deseos o de conjuntos\n• Cámara: para fotografiar el conjunto de hoy o las prendas\n\nPuede revocar estos permisos en cualquier momento en Ajustes de iOS. Tras la revocación, las funciones relacionadas pueden dejar de funcionar, pero los datos ya guardados en la aplicación no se eliminan por ese motivo."
+              },
+              {
+                      "title": "Almacenamiento y sincronización con iCloud",
+                      "body": "1. Almacenamiento local\nSi no ha iniciado sesión en iCloud o no ha activado la sincronización, los datos se almacenan en el directorio Application Support del dispositivo, incluidos archivos JSON y archivos de fotos.\n\n2. Sincronización con iCloud\nSi ha iniciado sesión en iCloud y ha autorizado el acceso, la aplicación puede sincronizar prendas, entradas de la lista de deseos, conjuntos, registros del calendario y fotos entre sus dispositivos Apple mediante iCloud Drive (CloudDocuments). El identificador del contenedor es iCloud.com.dianziyichu.app.\n\n3. Notas\n• La sincronización con iCloud la proporciona Apple y está sujeta a las condiciones de iCloud y a la política de privacidad de Apple\n• El estado de suscripción Pro, el tema y las preferencias de icono no se sincronizan a través de iCloud\n• La sincronización está disponible para todos los usuarios, no solo para los miembros Pro"
+              },
+              {
+                      "title": "Cómo usamos la información",
+                      "body": "Usamos la información anterior solo en la medida necesaria para prestar y mejorar la aplicación, por ejemplo para:\n\n• Mostrar y gestionar su armario, lista de deseos, conjuntos y calendario\n• Sincronizar sus datos en el dispositivo o mediante iCloud\n• Aplicar los límites de capacidad de la versión gratuita y las ventajas Pro\n• Responder a los comentarios que envíe a través de «Contactar con el desarrollador» (usted redacta el correo)\n\nNo vendemos su información personal ni la usamos para publicidad dirigida."
+              },
+              {
+                      "title": "Servicios de terceros",
+                      "body": "La aplicación utiliza las siguientes capacidades del sistema de Apple:\n\n• App Store / StoreKit: suscripciones Pro y desbloqueo de por vida, restauración de compras y verificación de transacciones\n• iCloud: sincronización opcional de datos y fotos\n• Mail: contacto con el desarrollador mediante la hoja de redacción del sistema\n• Fotos y Cámara: lectura o captura de imágenes\n\nConsulte las políticas oficiales de Apple relativas a esos servicios. Aparte de los servicios del sistema de Apple, la aplicación no incluye otros SDK de terceros."
+              },
+              {
+                      "title": "Acceso a la red",
+                      "body": "Si introduce la URL de una imagen remota, la aplicación puede cargar esa imagen por HTTPS para mostrarla. Por defecto no se permiten conexiones de red inseguras arbitrarias.\n\nAparte de ese caso, de la verificación de transacciones de App Store y de la sincronización con iCloud, la aplicación no requiere una conexión de red persistente para usar las funciones principales."
+              },
+              {
+                      "title": "Conservación y eliminación",
+                      "body": "• Sus datos permanecen en el dispositivo o en iCloud hasta que elimine los datos de la aplicación, desinstale la aplicación o elimine los datos relacionados en iCloud.\n• Desinstalar la aplicación puede eliminar los datos locales. Si la sincronización con iCloud está activada, pueden quedar copias en otros dispositivos con la misma cuenta de iCloud.\n• Puede eliminar el contenido correspondiente borrando prendas, conjuntos, entradas de la lista de deseos o registros del calendario."
+              },
+              {
+                      "title": "Privacidad de los menores",
+                      "body": "La aplicación no recopila deliberadamente información personal de menores de 13 años. Si usted es progenitor o tutor y cree que hemos tratado dicha información, póngase en contacto con nosotros en duanwei@nonoor.com."
+              },
+              {
+                      "title": "Sus derechos",
+                      "body": "Usted puede:\n\n• Ver, editar y eliminar el contenido que haya creado en la aplicación\n• Gestionar los permisos de Fototeca y Cámara en Ajustes\n• Gestionar iCloud y las suscripciones en los ajustes del ID de Apple\n• Escribirnos con preguntas o comentarios sobre privacidad"
+              },
+              {
+                      "title": "Actualizaciones de la política",
+                      "body": "Podemos actualizar esta Política de privacidad periódicamente. La versión actualizada se mostrará en la aplicación e incluirá una fecha de «Última actualización». Si un cambio afecta de forma sustancial a sus derechos, se lo comunicaremos de manera razonable."
+              },
+              {
+                      "title": "Contacto",
+                      "body": "Si tiene preguntas sobre esta Política de privacidad, envíe un correo a:\n\nduanwei@nonoor.com"
+              }
       ]
     },
     "terms": {
@@ -532,6 +802,256 @@ window.LEGAL_CONTENT = {
           "title": "문의",
           "body": "본 약관에 대한 질문은 다음으로 연락해 주세요.\n\nduanwei@nonoor.com"
         }
+      ],
+      "fr": [
+              {
+                      "title": "Acceptation des conditions",
+                      "body": "Les présentes conditions d’utilisation (les « Conditions ») constituent un accord entre vous et le développeur de My Closet concernant votre utilisation de l’application.\n\nEn téléchargeant, installant, accédant à l’application ou en l’utilisant, vous acceptez d’être lié par les présentes Conditions. Si vous n’êtes pas d’accord, n’utilisez pas l’application."
+              },
+              {
+                      "title": "Description du service",
+                      "body": "My Closet est un outil personnel de gestion de dressing et de tenues. Les principales fonctions comprennent :\n\n• Gestion des articles de dressing (catégorie, marque, prix, photos, etc.)\n• Création et gestion de looks\n• Collection de liste de souhaits\n• Enregistrements du calendrier des tenues\n• Thèmes d’interface et personnalisation de l’icône de l’app (certaines fonctions sont Pro)\n• Synchronisation iCloud facultative\n\nNous pouvons mettre à jour, ajuster ou interrompre certaines fonctions à mesure que le produit évolue, tout en maintenant raisonnablement la disponibilité des services essentiels."
+              },
+              {
+                      "title": "Éligibilité",
+                      "body": "Vous devez disposer de la pleine capacité juridique, ou utiliser l’application avec le consentement et sous la guidance d’un tuteur. Il vous appartient de disposer d’un appareil Apple compatible, d’un système d’exploitation et, le cas échéant, des conditions réseau/iCloud nécessaires."
+              },
+              {
+                      "title": "Contenu utilisateur et responsabilité",
+                      "body": "1. Vous êtes seul responsable du contenu que vous créez, importez ou téléversez dans l’application (y compris textes et photos).\n2. Vous devez vous assurer que le contenu ne porte pas atteinte aux droits de propriété intellectuelle, au droit à l’image, à la vie privée ou à d’autres droits légitimes d’autrui, et qu’il ne contient pas d’informations illégales, pornographiques, violentes, diffamatoires ou autrement inappropriées.\n3. Votre contenu est principalement stocké sur l’appareil ou dans votre compte iCloud. Le développeur n’accède pas, n’examine pas et ne sauvegarde pas activement le contenu utilisateur, mais peut coopérer lorsque la loi l’exige."
+              },
+              {
+                      "title": "Version gratuite et Pro",
+                      "body": "1. Version gratuite\nLes utilisateurs gratuits peuvent utiliser les fonctions principales, sous réserve de limites de capacité, notamment :\n• Articles de dressing : 20\n• Looks : 3\n• Articles de liste de souhaits : 5\nLes utilisateurs gratuits peuvent utiliser certains thèmes d’interface et l’icône d’app par défaut.\n\n2. Pro\nPro débloque une capacité supérieure et des fonctions exclusives, notamment un nombre illimité d’articles de dressing, de looks et d’entrées de liste de souhaits, des icônes d’app supplémentaires et des thèmes réservés à Pro. Les avantages précis sont ceux affichés dans l’application et dans les Conditions d’abonnement.\n\n3. Remarques\nLes limites gratuites et les avantages Pro peuvent évoluer avec les mises à jour de l’application. Nous l’indiquerons dans l’application ou dans les notes de version."
+              },
+              {
+                      "title": "Propriété intellectuelle",
+                      "body": "L’application ainsi que son design d’interface, ses icônes, son code et ses textes appartiennent au développeur ou aux titulaires de droits concernés. Sans autorisation écrite, vous ne pouvez pas les copier, les modifier, les diffuser, les soumettre à une rétro-ingénierie ni les utiliser à des fins commerciales."
+              },
+              {
+                      "title": "Conduite interdite",
+                      "body": "Vous ne pouvez pas :\n\n• Perturber ou interférer avec l’application de quelque manière que ce soit\n• Tenter de contourner les contrôles d’avantages Pro, les mécanismes d’abonnement ou les restrictions de sécurité du système\n• Utiliser l’application à des fins illégales\n• Extraire, exporter ou abuser en masse des ressources de l’application d’une manière qui porte préjudice à autrui ou au développeur"
+              },
+              {
+                      "title": "Clause de non-responsabilité",
+                      "body": "1. L’application est fournie « en l’état ». Nous ne garantissons pas que le service sera ininterrompu, exempt d’erreurs ou pleinement adapté à vos besoins particuliers.\n2. Les suggestions de tenues et les fonctions d’organisation sont destinées uniquement à un usage personnel de consignation et de référence ; elles ne constituent pas des conseils professionnels de stylisme, d’achat ou médicaux.\n3. La synchronisation iCloud, les achats App Store et les autorisations système dépendent des services Apple. Le développeur n’est pas responsable des interruptions causées par Apple ou par le réseau."
+              },
+              {
+                      "title": "Limitation de responsabilité",
+                      "body": "Dans la mesure maximale permise par le droit applicable, le développeur n’est pas responsable des dommages indirects, accessoires, spéciaux ou consécutifs résultant de l’utilisation ou de l’impossibilité d’utiliser l’application.\n\nSi le développeur est légalement tenu d’assumer une responsabilité, le montant total est limité à ce que vous lui avez effectivement versé pour les services Pro au cours des 12 mois précédant le dommage ; si vous n’utilisez que la version gratuite, la limite est de 100 RMB ou équivalent (le montant le plus élevé autorisé par le droit applicable)."
+              },
+              {
+                      "title": "Résiliation",
+                      "body": "Vous pouvez cesser d’utiliser et désinstaller l’application à tout moment. En cas de violation des présentes Conditions, nous pouvons limiter ou résilier tout ou partie des fonctions. Les dispositions qui, par leur nature, doivent survivre à la résiliation (notamment propriété intellectuelle, clauses de non-responsabilité et limitation de responsabilité) restent en vigueur."
+              },
+              {
+                      "title": "Droit applicable et litiges",
+                      "body": "La formation, l’exécution et l’interprétation des présentes Conditions sont régies par les lois de la Chine continentale (à l’exclusion des règles de conflit de lois). Les litiges doivent d’abord être résolus à l’amiable ; à défaut, ils seront soumis au tribunal populaire compétent du lieu du développeur."
+              },
+              {
+                      "title": "Nous contacter",
+                      "body": "Pour toute question concernant les présentes Conditions, veuillez contacter :\n\nduanwei@nonoor.com"
+              }
+      ],
+      "de": [
+              {
+                      "title": "Annahme der Bedingungen",
+                      "body": "Diese Nutzungsbedingungen (die „Bedingungen“) sind eine Vereinbarung zwischen Ihnen und dem Entwickler von My Closet über Ihre Nutzung der App.\n\nDurch Herunterladen, Installieren, Zugreifen auf oder Nutzen der App erklären Sie sich mit diesen Bedingungen einverstanden. Wenn Sie nicht einverstanden sind, nutzen Sie die App nicht."
+              },
+              {
+                      "title": "Leistungsbeschreibung",
+                      "body": "My Closet ist ein persönliches Werkzeug zur Verwaltung von Kleiderschrank und Outfits. Zu den Hauptfunktionen gehören:\n\n• Verwaltung von Kleidungsstücken (Kategorie, Marke, Preis, Fotos und mehr)\n• Erstellen und Verwalten von Outfits\n• Wunschliste\n• Einträge im Outfit-Kalender\n• Oberflächendesigns und Personalisierung des App-Symbols (einige Funktionen sind Pro)\n• Optionale iCloud-Datensynchronisierung\n\nWir können Funktionen im Zuge der Produktentwicklung aktualisieren, anpassen oder einstellen und die Verfügbarkeit der Kernfunktionen dabei in angemessenem Umfang aufrechterhalten."
+              },
+              {
+                      "title": "Nutzungsberechtigung",
+                      "body": "Sie sollten voll geschäftsfähig sein oder die App mit Zustimmung und unter Anleitung einer erziehungsberechtigten Person nutzen. Sie sind dafür verantwortlich, ein kompatibles Apple-Gerät, Betriebssystem sowie gegebenenfalls Netzwerk-/iCloud-Voraussetzungen bereitzustellen."
+              },
+              {
+                      "title": "Nutzerinhalte und Verantwortung",
+                      "body": "1. Sie sind allein verantwortlich für Inhalte, die Sie in der App erstellen, hochladen oder importieren (einschließlich Text und Fotos).\n2. Sie müssen sicherstellen, dass die Inhalte keine geistigen Eigentums-, Persönlichkeits-, Datenschutz- oder sonstigen Rechte Dritter verletzen und keine illegalen, pornografischen, gewalttätigen, verleumderischen oder sonstigen unzulässigen Informationen enthalten.\n3. Ihre Inhalte werden hauptsächlich auf dem Gerät oder in Ihrem iCloud-Account gespeichert. Der Entwickler greift nicht aktiv auf Nutzerinhalte zu, prüft oder sichert sie nicht, kann aber mitwirken, soweit gesetzlich erforderlich."
+              },
+              {
+                      "title": "Kostenlose Version und Pro",
+                      "body": "1. Kostenlose Version\nKostenlose Nutzer können Kernfunktionen nutzen, unterliegen jedoch Kapazitätsgrenzen, insbesondere:\n• Kleidungsstücke: 20\n• Outfits: 3\n• Wunschlisteneinträge: 5\nKostenlose Nutzer können einige Designs und das Standard-App-Symbol nutzen.\n\n2. Pro\nPro schaltet höhere Kapazität und exklusive Funktionen frei, darunter unbegrenzte Kleidungsstücke, Outfits und Wunschlisteneinträge, zusätzliche App-Symbole und Pro-exklusive Designs. Die konkreten Vorteile ergeben sich aus der Darstellung in der App und den Abonnementbedingungen.\n\n3. Hinweise\nKostenlose Grenzen und Pro-Vorteile können sich mit App-Updates ändern. Wir weisen darauf in der App oder in den Versionshinweisen hin."
+              },
+              {
+                      "title": "Geistiges Eigentum",
+                      "body": "Die App sowie ihr Oberflächendesign, ihre Symbole, ihr Code und ihre Texte gehören dem Entwickler oder den jeweiligen Rechteinhabern. Ohne schriftliche Erlaubnis dürfen Sie sie nicht kopieren, ändern, verbreiten, zurückentwickeln oder kommerziell nutzen."
+              },
+              {
+                      "title": "Unzulässiges Verhalten",
+                      "body": "Sie dürfen nicht:\n\n• die App in irgendeiner Weise stören oder beeinträchtigen\n• versuchen, Pro-Berechtigungsprüfungen, Abonnementmechanismen oder Systemsicherheitsbeschränkungen zu umgehen\n• die App für illegale Aktivitäten nutzen\n• Ressourcen der App massenhaft auslesen, exportieren oder so missbrauchen, dass anderen oder dem Entwickler Schaden entsteht"
+              },
+              {
+                      "title": "Haftungsausschluss",
+                      "body": "1. Die App wird „wie besehen“ bereitgestellt. Wir garantieren nicht, dass der Dienst ununterbrochen, fehlerfrei oder vollständig Ihren besonderen Bedürfnissen entspricht.\n2. Outfit-Vorschläge und Organisationsfunktionen dienen ausschließlich der persönlichen Dokumentation und als Referenz; sie stellen keine professionelle Styling-, Kauf- oder medizinische Beratung dar.\n3. iCloud-Synchronisierung, App-Store-Käufe und Systemberechtigungen hängen von Apple-Diensten ab. Der Entwickler haftet nicht für Unterbrechungen, die durch Apple oder Netzwerkprobleme verursacht werden."
+              },
+              {
+                      "title": "Haftungsbeschränkung",
+                      "body": "Soweit nach geltendem Recht zulässig, haftet der Entwickler nicht für indirekte, zufällige, besondere oder Folgeschäden, die aus der Nutzung oder der Unmöglichkeit der Nutzung der App entstehen.\n\nIst der Entwickler gesetzlich zur Haftung verpflichtet, ist der Gesamtbetrag auf das beschränkt, was Sie dem Entwickler in den 12 Monaten vor dem Schadenseintritt tatsächlich für Pro-Dienste gezahlt haben; nutzen Sie nur die kostenlose Version, beträgt die Obergrenze 100 RMB oder den Gegenwert (jeweils der höhere, gesetzlich zulässige Betrag)."
+              },
+              {
+                      "title": "Beendigung",
+                      "body": "Sie können die Nutzung jederzeit einstellen und die App deinstallieren. Bei einem Verstoß gegen diese Bedingungen können wir einzelne oder alle Funktionen einschränken oder beenden. Bestimmungen, die ihrer Natur nach die Beendigung überdauern sollen (etwa geistiges Eigentum, Haftungsausschlüsse und Haftungsbeschränkung), bleiben wirksam."
+              },
+              {
+                      "title": "Anwendbares Recht und Streitigkeiten",
+                      "body": "Entstehung, Erfüllung und Auslegung dieser Bedingungen unterliegen dem Recht des chinesischen Festlands (unter Ausschluss der Kollisionsnormen). Streitigkeiten sollen zunächst einvernehmlich beigelegt werden; gelingt dies nicht, sind sie bei dem Volksgericht mit Zuständigkeit am Sitz des Entwicklers anhängig zu machen."
+              },
+              {
+                      "title": "Kontakt",
+                      "body": "Bei Fragen zu diesen Bedingungen wenden Sie sich bitte an:\n\nduanwei@nonoor.com"
+              }
+      ],
+      "th": [
+              {
+                      "title": "การยอมรับข้อกำหนด",
+                      "body": "ข้อกำหนดการให้บริการเหล่านี้ («ข้อกำหนด») เป็นข้อตกลงระหว่างคุณกับผู้พัฒนา My Closet เกี่ยวกับการใช้แอปของคุณ\n\nการดาวน์โหลด ติดตั้ง เข้าถึง หรือใช้แอป ถือว่าคุณตกลงผูกพันตามข้อกำหนดเหล่านี้ หากคุณไม่ตกลง โปรดอย่าใช้แอป"
+              },
+              {
+                      "title": "คำอธิบายบริการ",
+                      "body": "My Closet เป็นเครื่องมือจัดการตู้เสื้อผ้าและชุดส่วนบุคคล ฟีเจอร์หลัก ได้แก่:\n\n• จัดการรายการในตู้เสื้อผ้า (หมวดหมู่ แบรนด์ ราคา รูปภาพ และอื่น ๆ)\n• สร้างและจัดการชุด\n• รวบรวมวิชลิสต์\n• บันทึกปฏิทินการแต่งตัว\n• ธีมอินเทอร์เฟซและการปรับแต่งไอคอนแอป (บางฟีเจอร์เป็น Pro)\n• การซิงค์ข้อมูล iCloud โดยสมัครใจ\n\nเราอาจอัปเดต ปรับ หรือยุติบางฟีเจอร์ตามการพัฒนาของผลิตภัณฑ์ โดยยังคงรักษาความพร้อมใช้งานของบริการหลักอย่างสมเหตุสมผล"
+              },
+              {
+                      "title": "คุณสมบัติผู้ใช้",
+                      "body": "คุณควรมีความสามารถทางกฎหมายครบถ้วน หรือใช้แอปโดยได้รับความยินยอมและคำแนะนำจากผู้ปกครอง คุณมีหน้าที่จัดเตรียมอุปกรณ์ Apple ที่เข้ากันได้ ระบบปฏิบัติการ และเงื่อนไขเครือข่าย/iCloud ตามที่จำเป็น"
+              },
+              {
+                      "title": "เนื้อหาผู้ใช้และความรับผิดชอบ",
+                      "body": "1. คุณเป็นผู้รับผิดชอบแต่เพียงผู้เดียวต่อเนื้อหาที่สร้าง อัปโหลด หรือนำเข้าในแอป (รวมถึงข้อความและรูปภาพ)\n2. คุณต้องทำให้แน่ใจว่าเนื้อหาไม่ละเมิดทรัพย์สินทางปัญญา สิทธิในภาพ ความเป็นส่วนตัว หรือสิทธิโดยชอบด้วยกฎหมายอื่นของผู้อื่น และไม่มีข้อมูลที่ผิดกฎหมาย ลามก รุนแรง หมิ่นประมาท หรือไม่เหมาะสมอื่น ๆ\n3. เนื้อหาของคุณถูกจัดเก็บเป็นหลักบนอุปกรณ์หรือในบัญชี iCloud ของคุณ ผู้พัฒนาไม่ได้เข้าถึง ตรวจสอบ หรือสำรองเนื้อหาผู้ใช้ด้วยตนเอง แต่สามารถให้ความร่วมมือได้เมื่อกฎหมายกำหนด"
+              },
+              {
+                      "title": "รุ่นฟรีและ Pro",
+                      "body": "1. รุ่นฟรี\nผู้ใช้ฟรีสามารถใช้ฟีเจอร์หลักได้ แต่มีขีดจำกัดความจุ ซึ่งรวมถึงแต่ไม่จำกัดเพียง:\n• รายการตู้เสื้อผ้า: 20\n• ชุด: 3\n• รายการวิชลิสต์: 5\nผู้ใช้ฟรีสามารถใช้ธีมอินเทอร์เฟซบางรายการและไอคอนแอปเริ่มต้น\n\n2. Pro\nPro ปลดล็อกความจุที่สูงขึ้นและฟีเจอร์พิเศษ รวมถึงตู้เสื้อผ้า ชุด และวิชลิสต์ไม่จำกัดจำนวน ไอคอนแอปเพิ่มเติม และธีมเฉพาะ Pro สิทธิประโยชน์ที่แน่นอนเป็นไปตามที่แสดงในแอปและในข้อกำหนดการสมัครสมาชิก\n\n3. หมายเหตุ\nขีดจำกัดของรุ่นฟรีและสิทธิประโยชน์ Pro อาจเปลี่ยนแปลงตามการอัปเดตแอป เราจะแจ้งในแอปหรือในบันทึกประจำรุ่น"
+              },
+              {
+                      "title": "ทรัพย์สินทางปัญญา",
+                      "body": "แอป รวมถึงการออกแบบอินเทอร์เฟซ ไอคอน โค้ด และข้อความ เป็นของนักพัฒนาหรือผู้ทรงสิทธิที่เกี่ยวข้อง หากไม่ได้รับอนุญาตเป็นลายลักษณ์อักษร คุณจะคัดลอก แก้ไข เผยแพร่ ทำวิศวกรรมย้อนกลับ หรือใช้เพื่อวัตถุประสงค์ทางการค้าไม่ได้"
+              },
+              {
+                      "title": "พฤติกรรมที่ห้าม",
+                      "body": "คุณต้องไม่:\n\n• รบกวนหรือแทรกแซงแอปไม่ว่าด้วยวิธีใด\n• พยายามหลีกเลี่ยงการตรวจสอบสิทธิ์ Pro กลไกการสมัครสมาชิก หรือข้อจำกัดความปลอดภัยของระบบ\n• ใช้แอปเพื่อกิจกรรมที่ผิดกฎหมาย\n• ดึงข้อมูลจำนวนมาก ส่งออก หรือใช้ทรัพยากรของแอปในทางที่ก่อให้เกิดความเสียหายแก่ผู้อื่นหรือผู้พัฒนา"
+              },
+              {
+                      "title": "ข้อจำกัดความรับผิด",
+                      "body": "1. แอปให้บริการ «ตามสภาพที่เป็นอยู่» เราไม่รับประกันว่าบริการจะไม่สะดุดปราศจากข้อผิดพลาด หรือตอบสนองความต้องการเฉพาะของคุณได้อย่างครบถ้วน\n2. คำแนะนำการแต่งตัวและฟีเจอร์จัดระเบียบมีไว้เพื่อบันทึกและอ้างอิงส่วนบุคคลเท่านั้น และไม่ถือเป็นคำปรึกษาด้านการแต่งกาย การซื้อ หรือทางการแพทย์อย่างมืออาชีพ\n3. การซิงค์ iCloud การซื้อผ่าน App Store และสิทธิ์ของระบบขึ้นอยู่กับบริการของ Apple ผู้พัฒนาไม่รับผิดต่อการหยุดชะงักที่เกิดจาก Apple หรือปัญหาเครือข่าย"
+              },
+              {
+                      "title": "การจำกัดความรับผิด",
+                      "body": "ในขอบเขตสูงสุดที่กฎหมายที่ใช้บังคับอนุญาต ผู้พัฒนาไม่รับผิดต่อความเสียหายทางอ้อม อุบัติเหตุ พิเศษ หรือที่เป็นผลสืบเนื่อง อันเกิดจากการใช้หรือไม่สามารถใช้แอปได้\n\nหากผู้พัฒนามีหน้าที่รับผิดตามกฎหมาย จำนวนรวมจะจำกัดเท่ากับจำนวนที่คุณได้ชำระจริงแก่ผู้พัฒนาสำหรับบริการ Pro ในช่วง 12 เดือนก่อนเกิดความเสียหาย หากคุณใช้เฉพาะรุ่นฟรี วงเงินคือ 100 หยวนจีน หรือจำนวนเทียบเท่า (แล้วแต่ว่ากฎหมายที่ใช้บังคับอนุญาตจำนวนใดสูงกว่า)"
+              },
+              {
+                      "title": "การสิ้นสุด",
+                      "body": "คุณสามารถหยุดใช้และถอนการติดตั้งแอปได้ทุกเมื่อ หากคุณฝ่าฝืนข้อกำหนดเหล่านี้ เราอาจจำกัดหรือยุติบางฟีเจอร์หรือทั้งหมด ข้อกำหนดที่โดยสภาพควรมีผลต่อไปหลังสิ้นสุด (เช่น ทรัพย์สินทางปัญญา ข้อจำกัดความรับผิด และการจำกัดความรับผิด) ยังคงมีผล"
+              },
+              {
+                      "title": "กฎหมายที่ใช้บังคับและข้อพิพาท",
+                      "body": "การก่อตั้ง การปฏิบัติตาม และการตีความข้อกำหนดเหล่านี้ให้อยู่ภายใต้กฎหมายของจีนแผ่นดินใหญ่ (ไม่รวมหลักกฎหมายขัดกัน) ข้อพิพาทควรได้รับการไกล่เกลี่ยโดยฉันมิตรก่อน หากไม่สำเร็จ ให้เสนอต่อศาลประชาชนที่มีเขตอำนาจ ณ ที่ตั้งของผู้พัฒนา"
+              },
+              {
+                      "title": "ติดต่อเรา",
+                      "body": "หากมีคำถามเกี่ยวกับข้อกำหนดเหล่านี้ โปรดติดต่อ:\n\nduanwei@nonoor.com"
+              }
+      ],
+      "it": [
+              {
+                      "title": "Accettazione dei termini",
+                      "body": "I presenti Termini di servizio (i «Termini») costituiscono un accordo tra te e lo sviluppatore di My Closet relativo all’uso dell’app.\n\nScaricando, installando, accedendo all’app o utilizzandola, accetti di essere vincolato dai presenti Termini. Se non sei d’accordo, non usare l’app."
+              },
+              {
+                      "title": "Descrizione del servizio",
+                      "body": "My Closet è uno strumento personale per la gestione del guardaroba e degli outfit. Le funzioni principali includono:\n\n• Gestione dei capi (categoria, marca, prezzo, foto e altro)\n• Creazione e gestione degli outfit\n• Raccolta della lista dei desideri\n• Registrazioni del calendario outfit\n• Temi dell’interfaccia e personalizzazione dell’icona dell’app (alcune funzioni sono Pro)\n• Sincronizzazione iCloud facoltativa\n\nPossiamo aggiornare, modificare o interrompere alcune funzioni con l’evoluzione del prodotto, mantenendo ragionevolmente la disponibilità dei servizi essenziali."
+              },
+              {
+                      "title": "Requisiti di utilizzo",
+                      "body": "Devi avere piena capacità giuridica, oppure usare l’app con il consenso e la guida di un tutore. Sei responsabile di disporre di un dispositivo Apple compatibile, di un sistema operativo e, se applicabile, delle condizioni di rete/iCloud."
+              },
+              {
+                      "title": "Contenuti dell’utente e responsabilità",
+                      "body": "1. Sei l’unico responsabile dei contenuti che crei, carichi o importi nell’app (inclusi testi e foto).\n2. Devi garantire che i contenuti non violino proprietà intellettuale, diritto all’immagine, privacy o altri diritti legittimi di terzi e non contengano informazioni illegali, pornografiche, violente, diffamatorie o altrimenti illecite.\n3. I tuoi contenuti sono conservati principalmente sul dispositivo o nel tuo account iCloud. Lo sviluppatore non accede, esamina o esegue backup attivi dei contenuti utente, ma può cooperare ove richiesto dalla legge."
+              },
+              {
+                      "title": "Versione gratuita e Pro",
+                      "body": "1. Versione gratuita\nGli utenti gratuiti possono usare le funzioni principali, soggetti a limiti di capacità, tra cui:\n• Capi del guardaroba: 20\n• Outfit: 3\n• Elementi della lista dei desideri: 5\nGli utenti gratuiti possono usare alcuni temi dell’interfaccia e l’icona predefinita dell’app.\n\n2. Pro\nPro sblocca una capacità superiore e funzioni esclusive, tra cui capi, outfit e voci della lista dei desideri illimitati, icone aggiuntive e temi riservati a Pro. I vantaggi specifici sono quelli mostrati nell’app e nei Termini di abbonamento.\n\n3. Note\nI limiti gratuiti e i vantaggi Pro possono cambiare con gli aggiornamenti dell’app. Lo indicheremo nell’app o nelle note di rilascio."
+              },
+              {
+                      "title": "Proprietà intellettuale",
+                      "body": "L’app e il relativo design dell’interfaccia, le icone, il codice e i testi appartengono allo sviluppatore o ai titolari dei diritti. Senza autorizzazione scritta, non puoi copiarli, modificarli, distribuirli, sottoporli a reverse engineering né usarli a fini commerciali."
+              },
+              {
+                      "title": "Condotte vietate",
+                      "body": "Non puoi:\n\n• Disturbare o interferire con l’app in alcun modo\n• Tentare di eludere i controlli dei vantaggi Pro, i meccanismi di abbonamento o le restrizioni di sicurezza del sistema\n• Usare l’app per attività illegali\n• Estrarre, esportare o abusare in massa delle risorse dell’app in modo da danneggiare terzi o lo sviluppatore"
+              },
+              {
+                      "title": "Esclusione di garanzia",
+                      "body": "1. L’app è fornita «così com’è». Non garantiamo che il servizio sia ininterrotto, privo di errori o pienamente adatto alle tue esigenze particolari.\n2. I suggerimenti di outfit e le funzioni di organizzazione sono solo per registrazione e riferimento personale e non costituiscono consulenza professionale di styling, di acquisto o medica.\n3. La sincronizzazione iCloud, gli acquisti sull’App Store e le autorizzazioni di sistema dipendono dai servizi Apple. Lo sviluppatore non è responsabile delle interruzioni causate da Apple o da problemi di rete."
+              },
+              {
+                      "title": "Limitazione di responsabilità",
+                      "body": "Nella misura massima consentita dalla legge applicabile, lo sviluppatore non è responsabile per danni indiretti, incidentali, speciali o consequenziali derivanti dall’uso o dall’impossibilità di usare l’app.\n\nSe lo sviluppatore è legalmente tenuto a rispondere, l’importo complessivo è limitato a quanto hai effettivamente versato allo sviluppatore per i servizi Pro nei 12 mesi precedenti il danno; se usi solo la versione gratuita, il limite è di 100 RMB o equivalente (il maggiore importo consentito dalla legge applicabile)."
+              },
+              {
+                      "title": "Risoluzione",
+                      "body": "Puoi interrompere l’uso e disinstallare l’app in qualsiasi momento. In caso di violazione dei presenti Termini, possiamo limitare o cessare alcune o tutte le funzioni. Le disposizioni che per loro natura devono sopravvivere alla risoluzione (come proprietà intellettuale, esclusioni di garanzia e limitazione di responsabilità) restano efficaci."
+              },
+              {
+                      "title": "Legge applicabile e controversie",
+                      "body": "La formazione, l’esecuzione e l’interpretazione dei presenti Termini sono regolate dalle leggi della Cina continentale (escluse le norme di conflitto di leggi). Le controversie devono essere prima risolte in via amichevole; in mancanza, saranno deferite al tribunale popolare competente nel luogo dello sviluppatore."
+              },
+              {
+                      "title": "Contattaci",
+                      "body": "Per domande sui presenti Termini, contatta:\n\nduanwei@nonoor.com"
+              }
+      ],
+      "es": [
+              {
+                      "title": "Aceptación de las condiciones",
+                      "body": "Las presentes Condiciones de servicio (las «Condiciones») constituyen un acuerdo entre usted y el desarrollador de My Closet relativo al uso de la aplicación.\n\nAl descargar, instalar, acceder o usar la aplicación, usted acepta quedar vinculado por estas Condiciones. Si no está de acuerdo, no use la aplicación."
+              },
+              {
+                      "title": "Descripción del servicio",
+                      "body": "My Closet es una herramienta personal de gestión de armario y conjuntos. Las funciones principales incluyen:\n\n• Gestión de prendas (categoría, marca, precio, fotos y más)\n• Creación y gestión de conjuntos\n• Colección de la lista de deseos\n• Registros del calendario de conjuntos\n• Temas de interfaz y personalización del icono de la app (algunas funciones son Pro)\n• Sincronización opcional de datos con iCloud\n\nPodemos actualizar, ajustar o interrumpir algunas funciones a medida que evolucione el producto, manteniendo de forma razonable la disponibilidad de los servicios esenciales."
+              },
+              {
+                      "title": "Elegibilidad",
+                      "body": "Debe tener plena capacidad jurídica, o usar la aplicación con el consentimiento y la orientación de un tutor. Usted es responsable de disponer de un dispositivo Apple compatible, un sistema operativo y, en su caso, las condiciones de red/iCloud."
+              },
+              {
+                      "title": "Contenido del usuario y responsabilidad",
+                      "body": "1. Usted es el único responsable del contenido que cree, cargue o importe en la aplicación (incluidos textos y fotos).\n2. Debe asegurarse de que el contenido no vulnere la propiedad intelectual, el derecho a la propia imagen, la privacidad u otros derechos legítimos de terceros, y de que no contenga información ilegal, pornográfica, violenta, difamatoria u otra información improcedente.\n3. Su contenido se almacena principalmente en el dispositivo o en su cuenta de iCloud. El desarrollador no accede, revisa ni hace copias de seguridad del contenido del usuario de forma activa, pero puede cooperar cuando lo exija la ley."
+              },
+              {
+                      "title": "Versión gratuita y Pro",
+                      "body": "1. Versión gratuita\nLos usuarios gratuitos pueden usar las funciones principales, sujetos a límites de capacidad, entre otros:\n• Prendas del armario: 20\n• Conjuntos: 3\n• Artículos de la lista de deseos: 5\nLos usuarios gratuitos pueden usar algunos temas de interfaz y el icono predeterminado de la app.\n\n2. Pro\nPro desbloquea mayor capacidad y funciones exclusivas, incluidos prendas, conjuntos y entradas de la lista de deseos ilimitados, iconos adicionales y temas exclusivos de Pro. Las ventajas concretas son las que se muestran en la aplicación y en las Condiciones de suscripción.\n\n3. Notas\nLos límites gratuitos y las ventajas Pro pueden cambiar con las actualizaciones de la aplicación. Lo indicaremos en la aplicación o en las notas de la versión."
+              },
+              {
+                      "title": "Propiedad intelectual",
+                      "body": "La aplicación y su diseño de interfaz, iconos, código y textos pertenecen al desarrollador o a los titulares de derechos correspondientes. Sin permiso por escrito, no puede copiarlos, modificarlos, distribuirlos, someterlos a ingeniería inversa ni usarlos con fines comerciales."
+              },
+              {
+                      "title": "Conducta prohibida",
+                      "body": "Usted no puede:\n\n• Perturbar o interferir en la aplicación de ningún modo\n• Intentar eludir las comprobaciones de ventajas Pro, los mecanismos de suscripción o las restricciones de seguridad del sistema\n• Usar la aplicación para actividades ilegales\n• Extraer, exportar o abusar de forma masiva de los recursos de la aplicación de un modo que perjudique a terceros o al desarrollador"
+              },
+              {
+                      "title": "Exención de responsabilidad",
+                      "body": "1. La aplicación se proporciona «tal cual». No garantizamos que el servicio sea ininterrumpido, esté libre de errores o satisfaga plenamente sus necesidades particulares.\n2. Las sugerencias de conjuntos y las funciones de organización son solo para registro y referencia personal, y no constituyen asesoramiento profesional de estilo, de compra ni médico.\n3. La sincronización con iCloud, las compras en el App Store y los permisos del sistema dependen de los servicios de Apple. El desarrollador no responde de las interrupciones causadas por Apple o por problemas de red."
+              },
+              {
+                      "title": "Limitación de responsabilidad",
+                      "body": "En la máxima medida permitida por la legislación aplicable, el desarrollador no responde de daños indirectos, incidentales, especiales o consecuentes derivados del uso o de la imposibilidad de usar la aplicación.\n\nSi el desarrollador está legalmente obligado a asumir responsabilidad, el importe total se limita a lo que usted le haya pagado realmente por los servicios Pro en los 12 meses anteriores al daño; si solo usa la versión gratuita, el límite es de 100 RMB o su equivalente (el importe más alto que permita la legislación aplicable)."
+              },
+              {
+                      "title": "Resolución",
+                      "body": "Puede dejar de usar y desinstalar la aplicación en cualquier momento. Si incumple estas Condiciones, podemos limitar o poner fin a algunas o todas las funciones. Las disposiciones que por su naturaleza deban sobrevivir a la resolución (como la propiedad intelectual, las exenciones de responsabilidad y la limitación de responsabilidad) siguen vigentes."
+              },
+              {
+                      "title": "Ley aplicable y controversias",
+                      "body": "La formación, el cumplimiento y la interpretación de estas Condiciones se rigen por las leyes de China continental (con exclusión de las normas de conflicto de leyes). Las controversias deberán resolverse primero de forma amistosa; si no se logra, se someterán al tribunal popular competente en el domicilio del desarrollador."
+              },
+              {
+                      "title": "Contacto",
+                      "body": "Si tiene preguntas sobre estas Condiciones, póngase en contacto con:\n\nduanwei@nonoor.com"
+              }
       ]
     }
   }

@@ -7,6 +7,11 @@
     en: "Back to home",
     ja: "ホームに戻る",
     ko: "홈으로 돌아가기",
+    fr: "Retour à l’accueil",
+    de: "Zurück zur Startseite",
+    th: "กลับหน้าแรก",
+    it: "Torna alla home",
+    es: "Volver al inicio",
   };
 
   function normalizeLang(raw) {
@@ -16,6 +21,11 @@
     if (value.startsWith("zh")) return "zh-Hans";
     if (value.startsWith("ja")) return "ja";
     if (value.startsWith("ko")) return "ko";
+    if (value.startsWith("th")) return "th";
+    if (value.startsWith("fr")) return "fr";
+    if (value.startsWith("de")) return "de";
+    if (value.startsWith("it")) return "it";
+    if (value.startsWith("es")) return "es";
     if (value.startsWith("en")) return "en";
     return null;
   }

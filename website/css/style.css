@@ -12,7 +12,7 @@
   --radius: 20px;
   --radius-lg: 28px;
   --max: 1120px;
-  --font: "Inter", "Noto Sans SC", "Noto Sans TC", "Noto Sans JP", "Noto Sans KR", system-ui, sans-serif;
+  --font: "Inter", "Noto Sans SC", "Noto Sans TC", "Noto Sans JP", "Noto Sans KR", "Noto Sans Thai", system-ui, sans-serif;
 }
 
 * {
@@ -79,11 +79,14 @@ a {
 
 .lang-switcher {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
   gap: 4px;
   padding: 4px;
   background: rgba(255, 255, 255, 0.7);
   border: 1px solid var(--outline);
-  border-radius: 999px;
+  border-radius: 16px;
+  max-width: min(100%, 420px);
 }
 
 .lang-switcher button {
@@ -91,9 +94,9 @@ a {
   background: transparent;
   color: var(--text-muted);
   font: inherit;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
-  padding: 6px 10px;
+  padding: 5px 8px;
   border-radius: 999px;
   cursor: pointer;
 }
@@ -360,6 +363,15 @@ a {
 }
 
 @media (max-width: 640px) {
+  .header-inner {
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .lang-switcher {
+    max-width: 100%;
+  }
+
   .hero {
     padding-top: 32px;
   }

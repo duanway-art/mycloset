@@ -19,11 +19,16 @@ website/
     app-icon.png
     favicon.png
     screenshots/      # 各语言营销截图（宽 780px）
-      zh-Hans/
-      zh-Hant/
-      en-US/
-      ja/
-      ko/
+      简体中文/
+      繁体中文/
+      英语/
+      日语/
+      韩语/
+      法语/
+      德语/
+      泰语/
+      意大利语/
+      西班牙语/
 ```
 
 ## 本地预览
@@ -71,10 +76,15 @@ App 上架后，在 `website/js/main.js` 里把 `DEFAULT_APP_STORE_URL` 改成�
 
 | 按钮 | 语言 | 截图目录 |
 |------|------|----------|
-| 简 | 简体中文 | zh-Hans |
-| 繁 | 繁体中文 | zh-Hant |
-| EN | English | en-US |
-| JA | 日本語 | ja |
-| KO | 한국어 | ko |
+| 简 | 简体中文 | 简体中文 |
+| 繁 | 繁体中文 | 繁体中文 |
+| EN | English | 英语 |
+| JA | 日本語 | 日语 |
+| KO | 한국어 | 韩语 |
+| FR | Français | 法语 |
+| DE | Deutsch | 德语 |
+| TH | ไทย | 泰语 |
+| IT | Italiano | 意大利语 |
+| ES | Español | 西班牙语 |
 
 语言优先级：URL `?lang=` → localStorage → 浏览器语言 → 简体中文。
