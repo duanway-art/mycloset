@@ -1,6 +1,6 @@
 (function () {
   const STORAGE_KEY = "mycloset.lang";
-  const DEFAULT_APP_STORE_URL = "#"; // Replace after App Store approval
+  const DEFAULT_APP_STORE_URL = "https://apps.apple.com/us/app/my-closet-outfit-calendar/id6805789139";
 
   function normalizeLang(raw) {
     if (!raw) return null;

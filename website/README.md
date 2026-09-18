@@ -68,13 +68,9 @@ python3 scripts/generate_legal_web_content.py
 rsync -avz --delete website/ user@your-server:/var/www/mycloset.nonoor.com/
 ```
 
-## 待填项
-
-App 上架后，在 `website/js/main.js` 里把 `DEFAULT_APP_STORE_URL` 改成真实 App Store 链接。
+App Store 下载链接在 `website/js/main.js` 的 `DEFAULT_APP_STORE_URL`，以及 `index.html` 顶部和底部按钮。
 
 ## 支持语言
-
-| 按钮 | 语言 | 截图目录 |
 |------|------|----------|
 | 简 | 简体中文 | 简体中文 |
 | 繁 | 繁体中文 | 繁体中文 |
